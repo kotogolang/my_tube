@@ -16,7 +16,7 @@ class App extends Component {
             selectedVideo: null}
 
   componentDidMount(){
-    YSearch({ key: YOUTUBE_API_KEY, term: '猫　きゅうり'}, (data) => {
+    YSearch({ key: YOUTUBE_API_KEY, term: 'ユーチューバー　芸能人'}, (data) => {
  　    this.setState({ videos: data, selectedVideo: data[2]})
 　  });
   }
@@ -26,9 +26,9 @@ class App extends Component {
   }
 
   onKeywordChangedHandler = (keyword) => {
-    let newTerm = '猫' + keyword;
+    let newTerm = '芸能人' + keyword;
     if(keyword === ''){
-      newTerm = '猫　きゅうり';
+      newTerm = 'ユーチューバー　芸能人';
     }
 
     YSearch({ key: YOUTUBE_API_KEY, term: newTerm}, (data) => {
