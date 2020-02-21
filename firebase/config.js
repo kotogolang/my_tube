@@ -1,8 +1,8 @@
 export const firebaseConfig = {
-    apiKey: "AIzaSyBloZgbGLmEa_YeghCRQ8QaI0-lHODbalQ",
-    authDomain: "nekotube-5ff2a.firebaseapp.com",
-    databaseURL: "https://nekotube-5ff2a.firebaseio.com",
-    projectId: "nekotube-5ff2a",
-    storageBucket: "nekotube-5ff2a.appspot.com",
-    measurementId: "G-NS8HF183JK"
+  apiKey: "AIzaSyDX9Z6f4LPSqRvjQZuurP0iDZJEPCMeVcM",
+  authDomain: "regal-stage-260922.firebaseapp.com",
+  databaseURL: "https://regal-stage-260922.firebaseio.com",
+  projectId: "regal-stage-260922",
+  storageBucket: "regal-stage-260922.appspot.com",
+  messagingSenderId: "770084610185",
 };
